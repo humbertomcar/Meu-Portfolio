@@ -9,6 +9,7 @@
 
 .experiencia .subtitulo {
     color: #e0e0e0;
+    max-width: 4.5ch;
 }
 
 .experiencia-texto {
@@ -83,4 +84,48 @@
     padding: 0;
     display: inline-block;
     max-width: 22px;
+}
+
+@media (max-width: 1155px) {
+    .experiencia .subtitulo {
+        font-size: 6rem;
+    }
+
+    .experiencia-texto {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 910px){
+    .experiencia .subtitulo {
+        font-size: 5.3rem;
+        max-width: 5ch;
+    }
+}
+
+@media (max-width: 830px){
+    .subtitulo {
+        max-width: initial;
+        word-break: keep-all;
+        font-size: 4rem;
+        text-transform: capitalize;
+        color: #141414;
+    }
+}
+
+@media (max-width: 830px){
+    .experiencia {
+        gap: 40px;
+        grid-template-columns: 1fr;
+    }
+    .experiencia .subtitulo {
+        max-width: initial;
+        word-break: keep-all;
+        font-size: 4rem;
+        text-transform: capitalize;
+        color: #141414;
+    }
+    .experiencia-texto {
+        font-size: 1.25rem;
+    }
 }

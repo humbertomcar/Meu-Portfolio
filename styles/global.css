@@ -31,3 +31,11 @@ a {
     text-transform: uppercase;
     max-width: 4ch;
 }
+
+@media (max-width: 830px) {
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial !important;
+    }
+}
