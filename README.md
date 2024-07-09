@@ -1,3 +1,3 @@
 # Meu-Portfolio
 
-Portfólio realizado durante curso de HTML e CSS do Origamid
+Portfólio pessoal realizado durante curso de HTML e CSS do Origamid
